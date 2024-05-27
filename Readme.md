@@ -5,7 +5,7 @@ Azure Migration Checker は [Azure にアップロードする Windows VHD ま�
 - **<span style="color: red; ">!!!!! ツールの実行は自己責任でお願いします !!!!!</span>**
 - 動作確認は Windows Server 2016 日本語版にて行っています
 - 更新プログラムは最新化して動作確認を行っています
-- 追加モジュールとして Pester および ExtentReports .NET CLI を使用しています
+- 追加ライブラリとして Pester および Extent .NET CLI を使用しています
 
 ## 環境構築
 - フォルダおよびファイルをそのまま任意の場所に置いてください  
@@ -15,8 +15,8 @@ Azure Migration Checker は [Azure にアップロードする Windows VHD ま�
 - 本バージョンでは Pester 5.5.0 をインクルードしています  
 - 更新は [Installation and Update](https://pester.dev/docs/introduction/installation) および [パッケージの手動ダウンロード](https://learn.microsoft.com/ja-jp/powershell/gallery/how-to/working-with-packages/manual-download)を参照してファイルの再配置を行ってください
 
-#### ExtentReports .NET CLI
-- 本バージョンでは ExtentReports .NET CLI 0.0.3 をインクルードしています  
+#### Extent .NET CLI
+- 本バージョンでは Extent .NET CLI 0.0.3 をインクルードしています  
 - 更新は [extent-framework / extentreports-dotnet-cli](https://github.com/extent-framework/extentreports-dotnet-cli) からダウンロードしてファイルの再配置を行ってください
 
 ## 実行手順
