@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>extent</ToolCommandName>
+    <PackageOutputPath>./nupkg</PackageOutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <AssemblyTitle>ExtentReportsDotNetCLI</AssemblyTitle>
+    <Description>Extend Framework, .NET CLI for Test Frameworks</Description>
+    <Company>AventStack</Company>
+    <Product>ExtentReportsDotNetCLI</Product>
+    <Copyright>Copyright © 2020</Copyright>
+    <!-- Version information for an assembly consists of the following four values:
+
+      Major Version
+      Minor Version
+      Build Number
+      Revision
+
+     You can specify all the values or you can default the Build and Revision Numbers
+     by using the '*' like "1.0.*" -->
+    <AssemblyVersion>0.1.0.0</AssemblyVersion>
+    <PackageVersion>0.1.0.0</PackageVersion>
+    <FileVersion>0.1.0.0</FileVersion>
+    <Authors>anshooarora</Authors>
+    <PackageProjectUrl>https://github.com/extent-framework/extentreports-dotnet-cli</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/extent-framework/extentreports-dotnet-cli/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/extent-framework/extentreports-dotnet-cli</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ExtentReports" Version="4.0.3" />
+    <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="3.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>
